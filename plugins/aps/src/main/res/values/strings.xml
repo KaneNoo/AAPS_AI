@@ -1809,11 +1809,6 @@
     <string name="endo_flare_duration_title">Flare Duration (hours)</string>
     <string name="endo_flare_duration_summary">How long the flare mode stays active when toggled.</string>
 
-
-
-
-
-
     <!-- T3c Brittle Mode -->
     <string name="aimi_t3c_brittle_mode_title">T3c / Brittle Diabetes Mode</string>
     <string name="aimi_t3c_brittle_mode_summary">Prioritize TBR over SMB. Disables SMB boost from ISF Fusion, and imposes strict Basal-First behavior on persistent rises.</string>
@@ -1832,6 +1827,7 @@
     <string name="oaps_aimi_adaptive_basal_summary">Automatically scale standard basal rates based on neural insights (for all users).</string>
     <string name="oaps_aimi_adaptive_basal_max_scaling_title">Max Adaptive Scaling</string>
     <string name="oaps_aimi_adaptive_basal_max_scaling_summary">Maximum multiplier allowed for adaptive basal scaling (e.g. 1.5x).</string>
+
     <!-- Hormonitor study data viewer -->
     <string name="aimi_hormonitor_viewer_title">Hormonitor — study data</string>
     <string name="aimi_hormonitor_viewer_summary">Browse the exported study data day by day: time-in-range, decisions, and how the tree/Harmonia, physio and hormonal context were deployed.</string>

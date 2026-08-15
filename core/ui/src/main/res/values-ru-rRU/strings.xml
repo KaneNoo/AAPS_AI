@@ -246,7 +246,7 @@
     <string name="login">Войти</string>
     <string name="logout">Выйти</string>
     <string name="prime_fill">Прайм/Заполнение</string>
-    <string name="site_rotation">Ротация мест</string>
+    <string name="site_rotation">Смена места инфузии</string>
     <string name="edit_site">Редактировать</string>
     <string name="select_arrow">Выбрать стрелку</string>
     <string name="site_filter_info">Выберите тип события терапии для отображения: смена канюли и/или смена сенсора</string>
