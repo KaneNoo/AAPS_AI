@@ -1,65 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="units">Единицы</string>
-    <string name="setupwizard_units_prompt">Выберите единицы, в которых вы хотите отображать значения</string>
+    <string name="units">Единицы измерения</string>
+    <string name="setupwizard_units_prompt">Выберите единицы измерения для отображения значений</string>
     <string name="next_button">Далее</string>
     <string name="previous_button">Назад</string>
-    <string name="setupwizard_finish">ГОТОВО</string>
+    <string name="setupwizard_finish">ЗАВЕРШИТЬ</string>
     <string name="welcome">Добро пожаловать</string>
-    <string name="welcometosetupwizard">Добро пожаловать в мастер установки</string>
-    <string name="end_user_license_agreement">лицензионное соглашение с пользователем</string>
-    <string name="end_user_license_agreement_text">НЕ ДОЛЖНО ИСПОЛЬЗОВАТЬСЯ ДЛЯ ПРИНЯТИЯ МЕДИЦИНСКИХ РЕШЕНИЙ. ПРОГРАММА НЕ ДАЕТ ГАРАНТИЙ В РАМКАХ СУЩЕСТВУЮЩЕГО ЗАКОНОДАТЕЛЬСТВА. ПРЕДОСТАВЛЯЕТСЯ \"КАК ЕСТЬ\" БЕЗ ЯВНЫХ ИЛИ СКРЫТЫХ ГАРАНТИЙ ВКЛЮЧАЯ НО НЕ ОГРАНИЧИВАЯСЬ ВОЗМОЖНОСТЬЮ КОММЕРЧЕСКОГО ИСПОЛЬЗОВАНИ ИЛИ СООТВЕТСТВИЯ КАКИМ-ЛИБО ЦЕЛЯМ. ВСЕ РИСКИ ЛОЖАТСЯ НА ВАС. В СЛУЧАЕ НЕРАБОТОСПОСОБНОСТИ ПРОГРАММЫ ВЫ НЕСЕТЕ ВСЕ РАСХОДЫ СВЯЗАННЫЕ С ОБСЛУЖИВАНИЕМ РЕМОНТОМ ИЛИ КОРРЕКТИРОВКОЙ.  </string>
-    <string name="end_user_license_agreement_i_understand">я понимаю и принимаю</string>
-    <string name="display_settings">Параметры экрана</string>
-    <string name="low_mark">отметка НИЗКИЙ</string>
-    <string name="high_mark">Отметка ВЫСОКИЙ</string>
-    <string name="low_mark_comment">Меньшее значение диапазона целевых значений (только для дисплея)</string>
-    <string name="high_mark_comment">Большее значение диапазона целевых значений (только для дисплея)</string>
-    <string name="storedsettingsfound">Найдены сохраненные параметры</string>
-    <string name="master_password_summary">Главный пароль используется для шифрования резервных копий и для переопределения защиты в приложении. Запомните его или храните в безопасном месте.</string>
-    <!-- current_master_password moved to core/ui/protection.xml -->
-    <string name="common_values">Введите максимальные значения вашего приема пищи \n</string>
-    <string name="syncinfotext">Синхронизировать данные в облако. Сейчас можно пропустить эту часть, но без клиента Nightscout или Tidepool не получится пройти все цели.</string>
-    <string name="diawarning">Напоминание: новые профили инсулина требуют как минимум 5 часов длительности действия DIA. 5-6 часовая DIA эквивалентна трехчасовой на старых профилях.</string>
+    <string name="welcometosetupwizard">Добро пожаловать в мастер настройки. Он проведёт вас через процесс настройки\n</string>
+    <string name="end_user_license_agreement">Лицензионное соглашение с конечным пользователем</string>
+    <string name="end_user_license_agreement_text">НЕ ДОЛЖЕН ИСПОЛЬЗОВАТЬСЯ ДЛЯ ПРИНЯТИЯ МЕДИЦИНСКИХ РЕШЕНИЙ. ПРОГРАММА ПРЕДОСТАВЛЯЕТСЯ БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ, В ТОЙ СТЕПЕНИ, В КОТОРОЙ ЭТО РАЗРЕШЕНО ПРИМЕНИМЫМ ЗАКОНОДАТЕЛЬСТВОМ. ЗА ИСКЛЮЧЕНИЕМ СЛУЧАЕВ, КОГДА ИНОЕ ПРЯМО УКАЗАНО В ПИСЬМЕННОЙ ФОРМЕ, ПРАВООБЛАДАТЕЛИ И/ИЛИ ДРУГИЕ СТОРОНЫ ПРЕДОСТАВЛЯЮТ ПРОГРАММУ «КАК ЕСТЬ» БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ, ЯВНЫХ ИЛИ ПОДРАЗУМЕВАЕМЫХ, ВКЛЮЧАЯ, НО НЕ ОГРАНИЧИВАЯСЬ, ПОДРАЗУМЕВАЕМЫМИ ГАРАНТИЯМИ ТОВАРНОЙ ПРИГОДНОСТИ И ПРИГОДНОСТИ ДЛЯ КОНКРЕТНОЙ ЦЕЛИ. ВЕСЬ РИСК, СВЯЗАННЫЙ С КАЧЕСТВОМ И ПРОИЗВОДИТЕЛЬНОСТЬЮ ПРОГРАММЫ, ЛЕЖИТ НА ВАС. В СЛУЧАЕ ОБНАРУЖЕНИЯ ДЕФЕКТОВ ВЫ ПРИНИМАЕТЕ НА СЕБЯ ВСЕ РАСХОДЫ НА НЕОБХОДИМОЕ ОБСЛУЖИВАНИЕ, РЕМОНТ ИЛИ ИСПРАВЛЕНИЕ.</string>
+    <string name="end_user_license_agreement_i_understand">Я ПОНЯЛ(А) И СОГЛАШАЮСЬ</string>
+    <string name="display_settings">Настройки отображения</string>
+    <string name="low_mark">Нижняя отметка</string>
+    <string name="high_mark">Верхняя отметка</string>
+    <string name="low_mark_comment">Нижнее значение целевого диапазона (только для отображения)</string>
+    <string name="high_mark_comment">Верхнее значение целевого диапазона (только для отображения)</string>
+    <string name="permission">Разрешение</string>
+    <string name="need_system_window_permission">Приложению требуется разрешение на отображение поверх других окон для уведомлений</string>
+    <string name="need_location_permission">Приложению требуется разрешение на определение местоположения для сканирования Bluetooth и идентификации Wi-Fi</string>
+    <string name="need_background_location_permission">Приложению требуется разрешение на определение местоположения в фоновом режиме для автоматизации</string>
+    <string name="need_storage_permission">Приложению требуется разрешение на доступ к хранилищу для сохранения файлов журналов и экспорта настроек (только для устаревших версий Android)</string>
+    <string name="need_whitelisting">%1$s необходимо исключить из оптимизации батареи для корректной работы</string>
+    <string name="error_asking_for_permissions">Ошибка при запросе разрешений</string>
+    <string name="import_setting">Импортировать настройки</string>
+    <string name="aaps_directory">Каталог AAPS</string>
+    <string name="select_aaps_directory">Выберите каталог AAPS для экспортов, конфигураций и связанных данных.</string>
+    <string name="askforpermission">Запросить разрешение</string>
+    <string name="storedsettingsfound">Найдены сохранённые настройки</string>
+    <string name="master_password_summary">Мастер-пароль используется для шифрования резервных копий и для переопределения защиты в приложении. Запомните его или храните в безопасном месте.</string>
+    <!-- current_master_password перемещён в core/ui/protection.xml -->
+    <string name="common_values">Используйте значения вашего самого большого обычного приёма пищи\n</string>
+    <string name="syncinfotext">Синхронизировать данные с облаком. Вы можете пропустить эту часть сейчас, но вы не сможете проходить этапы обучения (objectives), пока не настроите клиент Nightscout или Tidepool.</string>
+    <string name="status_label">Статус:</string>
+    <string name="diawarning">Пожалуйста, помните: новые профили инсулина требуют DIA не менее 5 часов. DIA 5–6 ч в новом профиле эквивалентно DIA 3 ч в старых профилях инсулина.</string>
     <string name="profile">Профиль</string>
-    <string name="doprofileswitch">Переключить профиль</string>
-    <string name="exitwizard">Пропустить Мастер установки</string>
-    <string name="setupwizard_sensitivity_description">Плагин чувствительности Sensitivity применяется для определения чувствительности к инсулину и вычисления активных углеводов COB. Дополнительная информация:</string>
-    <string name="setupwizard_sensitivity_url">https://wiki.aaps.app/ru/latest/DailyLifeWithAaps/SensitivityDetectionAndCob.html</string>
-    <string name="setupwizard_aps_description">Выберите один из доступных алгоритмов. Они отсортированы от старых к новым. Обычно, чем новее алгоритм, тем он мощнее. Не забудьте перед использованием прочитать документацию OpenAPS и сделать необходимые настройки.</string>
-    <string name="setupwizard_pump_waiting_for_riley_link_connection">Сконфигурируйте RileyLink. После выбора RileyLink можно будет продолжить установку если состояние RileyLink \"Соединено\". Это может занять минуту.\n</string>
-    <string name="setupwizard_pump_pump_not_initialized"><b>Примечание:</b> После инициализации помпы можно продолжить настройку\n</string>
-    <string name="startobjective">Начните первую Цель</string>
-    <string name="open_objectives">Открыть Цели</string>
+    <string name="doprofileswitch">Выполнить переключение профиля</string>
+    <string name="exitwizard">Пропустить мастер настройки</string>
+    <string name="setupwizard_sensitivity_description">Плагин чувствительности используется для обнаружения чувствительности и расчёта COB. Подробнее на сайте:</string>
+    <string name="setupwizard_sensitivity_url">https://wiki.aaps.app/en/latest/DailyLifeWithAaps/SensitivityDetectionAndCob.html</string>
+    <string name="setupwizard_aps_description">Выберите один из доступных алгоритмов. Они отсортированы от самого старого к самому новому. Новый алгоритм обычно более мощный. Не забудьте прочитать документацию OpenAPS и настроить его перед использованием.</string>
+    <string name="setupwizard_pump_waiting_for_riley_link_connection">Пожалуйста, настройте ваш RileyLink ниже. После выбора RileyLink можно будет продолжить настройку, когда статус RileyLink станет «Подключено». Это может занять минуту.\n</string>
+    <string name="setupwizard_pump_pump_not_initialized"><b>Примечание:</b> Вы можете продолжить настройку после того, как помпа будет настроена.\n</string>
+    <string name="startobjective">Начать первый этап обучения (objective)</string>
+    <string name="open_objectives">Открыть этапы обучения</string>
     <string name="setupwizard_permissions">Разрешения</string>
-    <string name="setupwizard_profile_info">Создайте профиль с указанием БС, УК, ФЧИ и целевой ГК. Вы сможете добавить дополнительные профили позднее.</string>
+    <string name="setupwizard_profile_info">Создайте профиль с вашими базальными скоростями, соотношениями IC, ISF и целевыми значениями. Позже вы сможете добавить несколько профилей.</string>
     <string name="setupwizard_permissions_info">Для корректной работы AAPS требуется доступ к хранилищу и разрешения. Пожалуйста, предоставьте необходимые разрешения ниже.</string>
     <string name="setupwizard_pump_riley_link_status">Статус RileyLink:</string>
-    <string name="readstatus">Статус \'чтение\'</string>
-    <!-- Provider-agnostic cloud export/import strings -->
-    <string name="alert_dialog_permission_battery_optimization_failed">Это устройство не поддерживает меню оптимизации батареи - могут быть проблемы с производительностью.</string>
-    <!--    ConfigBuilder-->
-    <string name="configbuilder_pump_description">Какой помпой вы хотели бы пользоваться с AAPS?</string>
-    <string name="configbuilder_aps_description">Какой алгоритм ИПЖ должен выполнять подстройку терапии?</string>
-    <string name="configbuilder_sync_description">Плагины загрузки данных, синхронизации и коммуникации.</string>
-    <string name="configbuilder_bgsource_description">Откуда должен получать данные AAPS?</string>
+    <string name="setupwizard_client_control_title">Управление клиентом</string>
+    <string name="setupwizard_client_control_info">Сопрягите клиентские устройства, чтобы они могли отправлять подписанные команды этому основному устройству через Nightscout. Это новый рекомендуемый способ удалённого управления AAPS.</string>
+    <string name="setupwizard_ns_receive_info">Приём обработок и данных напрямую из Nightscout (менее безопасный способ) теперь по умолчанию отключён. Откройте настройки ниже, только если вам это всё ещё нужно. Необходимо, если вам нужно вводить данные через NS или сторонние приложения.</string>
+    <string name="setupwizard_open_ns_receive_settings">Приём данных из Nightscout</string>
+    <string name="setupwizard_pair_with_master_info">Сопрягите этот клиент с вашим основным AAPS, чтобы он мог отправлять команды по защищённому каналу.</string>
+    <string name="setupwizard_pairing_ws_warning">Для сопряжения требуется подключение WebSocket Nightscout. Вернитесь к предыдущему шагу и включите его сначала.</string>
+    <string name="setupwizard_pairing_status_master">Сопряжённых клиентов: %1$d</string>
+    <string name="setupwizard_pairing_status_master_none">Клиенты ещё не сопряжены</string>
+    <string name="setupwizard_pairing_status_client_paired">Сопряжён с основным устройством</string>
+    <string name="setupwizard_pairing_status_client_not_paired">Ещё не сопряжён</string>
+    <string name="readstatus">Считать статус</string>
+
+    <!-- Строки для облачного экспорта/импорта, независимые от провайдера -->
+    <string name="alert_dialog_permission_battery_optimization_failed">Это устройство, похоже, не поддерживает добавление в белый список оптимизации батареи — возможны проблемы с производительностью.</string>
+
+    <!-- ConfigBuilder -->
+    <string name="configbuilder_pump_description">Какую помпу вы хотите использовать с AAPS?</string>
+    <string name="configbuilder_aps_description">Какой алгоритм APS должен вносить корректировки терапии?</string>
+    <string name="configbuilder_sync_description">Плагины загрузки, синхронизации и связи.</string>
+    <string name="configbuilder_bgsource_description">Откуда AAPS должен получать свои данные?</string>
     <string name="configbuilder_sensitivity_description">Какой алгоритм чувствительности следует использовать?</string>
-    <string name="allow_hardware_pump_text">Внимание: Если вы активируете подключение к невиртуальной помпе, AAPS скопирует настройки базала в профиль помпы, перезаписывая существующие настройки, хранящиеся в ней. Убедитесь, что настройки базала в AAPS корректны. Если вы не уверены или не хотите перезаписать настройки базала на помпу, нажмите отменить и повторите подключение в другое время.</string>
-    <string name="nsclient_version_does_not_match">Версия AAPSClient не совпадает с версией AAPS. Обновите версию.</string>
-    <!--ImportExport-->
-    <!-- password_preferences_encrypt_prompt moved to core:ui -->
-    <!-- preferences_export_canceled moved to core:ui -->
-    <!-- export_to moved to core:ui -->
-    <!-- master_password_missing moved to core:ui -->
-    <!-- Maintenance -->
-    <!-- Maintenance -->
-    <!-- maintenance_email moved to core:keys module -->
+    <string name="allow_hardware_pump_text">Внимание: если вы активируете и подключитесь к аппаратной помпе, AAPS скопирует настройки базала из профиля в помпу, перезаписав существующую базальную скорость, хранящуюся на помпе. Убедитесь, что у вас правильные настройки базала в AAPS. Если вы не уверены или не хотите перезаписывать настройки базала на помпе, нажмите «Отмена» и повторите переключение на помпу позже.</string>
+    <string name="nsclient_version_does_not_match">Версия AAPSClient не соответствует версии AAPS. Пожалуйста, обновитесь.</string>
+
     <!-- Google Drive Storage -->
-    <!-- Import source selection dialog -->
+
+    <!-- Диалог выбора источника импорта -->
     <string name="loading">Загрузка…</string>
-    <string name="warning_wrong_directory_selected">Выбрана неверная директория</string>
-    <string name="warning_wrong_directory_message">Вы выбрали поддиректорию \"%1$s\" вместо корневой директории AAPS. Выберите корневой каталог AAPS. Приложение будет автоматически создавать и управлять подкаталогами.</string>
-    <!-- Google Drive error messages (used by GoogleDriveManager) -->
-    <!-- Provider-agnostic cloud storage strings -->
-    <!-- Authorization status strings -->
+    <string name="warning_wrong_directory_selected">Выбрана неверная папка</string>
+    <string name="warning_wrong_directory_message">Вы выбрали подпапку «%1$s» вместо корневой папки AAPS. Пожалуйста, выберите родительскую папку AAPS. Приложение автоматически создаст и будет управлять подпапками.</string>
+
+    <!-- Сообщения об ошибках Google Drive (используются GoogleDriveManager) -->
+
+    <!-- Строки облачного хранилища, независимые от провайдера -->
+
+    <!-- Строки статуса авторизации -->
+    <string name="authorization_status">Статус авторизации</string>
+    <string name="google_drive_authorized">Google Drive авторизован</string>
+    <string name="google_drive_reauth_required">Пожалуйста, очистите настройки и повторно авторизуйте Google Drive</string>
+    <string name="aimi_backup_to_cloud">Резервное копирование AIMI в облако</string>
+    <string name="aimi_data_export_option">Данные AIMI (модели, наборы данных)</string>
 </resources>
