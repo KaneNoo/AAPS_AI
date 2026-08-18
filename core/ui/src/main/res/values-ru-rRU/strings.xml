@@ -9,9 +9,9 @@
     <string name="pair_with_master_manage_desc">Введите PIN-код сопряжения основного устройства, чтобы этот клиент мог отправлять подписанные команды.</string>
     <!-- Общее -->
     <string name="temp_basal_overview_short_name">ВБ:</string>
-    <string name="treatments">Лечения</string>
-    <string name="treatments_history">История лечений</string>
-    <string name="treatments_desc">Просмотр и управление историей лечений</string>
+    <string name="treatments">Терапия</string>
+    <string name="treatments_history">История терапии</string>
+    <string name="treatments_desc">Просмотр и управление историей терапии</string>
     <string name="nav_configuration">Конфигурация</string>
     <string name="nav_configuration_desc">Настройка конфигурации (CGM, помпа, ...) и включение функций</string>
     <string name="count_selected">Выбрано: %1$d</string>

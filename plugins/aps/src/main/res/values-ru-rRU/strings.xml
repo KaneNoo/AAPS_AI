@@ -1546,7 +1546,7 @@
     <string name="aimi_control_center_entry_title">Центр управления AIMI</string>
     <string name="aimi_control_center_entry_summary">Узнайте, как AIMI интерпретирует ваши текущие настройки, прежде чем упрощать их в семейства поведения.</string>
     <string name="aimi_pkpd_guided_title">Ассистент PKPD</string>
-    <string name="aimi_patient_context_title">Контекст пациента и декларации состояния</string>
+    <string name="aimi_patient_context_title">Информация о пациенте</string>
     <string name="aimi_lab_title">Лаборатория AIMI</string>
     <string name="aimi_control_center_title">Центр управления AIMI</string>
     <string name="aimi_control_center_intro_title">Текущее поведение AIMI, сгруппированное по намерениям</string>
